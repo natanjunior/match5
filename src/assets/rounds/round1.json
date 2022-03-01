@@ -1,6 +1,6 @@
 [{
 		"chave": 1,
-		"nome": "Coluna 1",
+		"nome": "Coluna A",
 		"cor": "red",
 		"itens": [{
 				"chave": 1,
@@ -10,171 +10,171 @@
 			{
 				"chave": 2,
 				"nome": "PESADO",
-				"icone": "palette"
+				"icone": "weight-hanging"
 			},
 			{
 				"chave": 3,
 				"nome": "REMÉDIO",
-				"icone": "palette"
+				"icone": "capsules"
 			},
 			{
 				"chave": 4,
 				"nome": "ESQUENTA",
-				"icone": "palette"
+				"icone": "fire-flame-curved"
 			},
 			{
 				"chave": 5,
 				"nome": "ENGRAÇADO",
-				"icone": "palette"
+				"icone": "face-grin-squint-tears"
 			},
 			{
 				"chave": 6,
 				"nome": "FERIADO",
-				"icone": "palette"
+				"icone": "umbrella-beach"
 			}
 		]
 	},
 	{
 		"chave": 2,
-		"nome": "Coluna 2",
+		"nome": "Coluna B",
 		"cor": "amber",
 		"itens": [{
 				"chave": 1,
 				"nome": "RARO",
-				"icone": "palette"
+				"icone": "gem"
 			},
 			{
 				"chave": 2,
 				"nome": "SAÚDE",
-				"icone": "palette"
+				"icone": "suitcase-medical"
 			},
 			{
 				"chave": 3,
 				"nome": "FLUTUA",
-				"icone": "palette"
+				"icone": "sailboat"
 			},
 			{
 				"chave": 4,
 				"nome": "VOA",
-				"icone": "palette"
+				"icone": "dove"
 			},
 			{
 				"chave": 5,
 				"nome": "CIDADE",
-				"icone": "palette"
+				"icone": "city"
 			},
 			{
 				"chave": 6,
 				"nome": "PEQUENO",
-				"icone": "palette"
+				"icone": "minimize"
 			}
 		]
 	},
 	{
 		"chave": 3,
-		"nome": "Coluna 3",
+		"nome": "Coluna C",
 		"cor": "lime",
 		"itens": [{
 				"chave": 1,
 				"nome": "ESPORTE",
-				"icone": "palette"
+				"icone": "volleyball"
 			},
 			{
 				"chave": 2,
 				"nome": "CANTOR(A) / GRUPO MUSICAL",
-				"icone": "palette"
+				"icone": "music"
 			},
 			{
 				"chave": 3,
 				"nome": "WALT DISNEY",
-				"icone": "palette"
+				"icone": "video"
 			},
 			{
 				"chave": 4,
 				"nome": "TECNOLOGIA",
-				"icone": "palette"
+				"icone": "robot"
 			},
 			{
 				"chave": 5,
 				"nome": "FANTASIA",
-				"icone": "palette"
+				"icone": "hat-wizard"
 			},
 			{
 				"chave": 6,
 				"nome": "HOBBY",
-				"icone": "palette"
+				"icone": "icons"
 			}
 		]
 	},
 	{
 		"chave": 4,
-		"nome": "Coluna 4",
+		"nome": "Coluna D",
 		"cor": "teal",
 		"itens": [{
 				"chave": 1,
 				"nome": "PARTE DO CORPO",
-				"icone": "palette"
+				"icone": "child"
 			},
 			{
 				"chave": 2,
 				"nome": "CORTA",
-				"icone": "palette"
+				"icone": "scissors"
 			},
 			{
 				"chave": 3,
 				"nome": "FRIO",
-				"icone": "palette"
+				"icone": "snowflake"
 			},
 			{
 				"chave": 4,
 				"nome": "FERRAMENTA",
-				"icone": "palette"
+				"icone": "hammer"
 			},
 			{
 				"chave": 5,
 				"nome": "PLÁSTICO",
-				"icone": "palette"
+				"icone": "recycle"
 			},
 			{
 				"chave": 6,
 				"nome": "RÁPIDO",
-				"icone": "palette"
+				"icone": "truck-fast"
 			}
 		]
 	},
 	{
 		"chave": 5,
-		"nome": "Coluna 5",
+		"nome": "Coluna E",
 		"cor": "purple",
 		"itens": [{
 				"chave": 1,
 				"nome": "CARNÍVORO / CARNE",
-				"icone": "palette"
+				"icone": "drumstick-bite"
 			},
 			{
 				"chave": 2,
 				"nome": "QUEBRÁVEL",
-				"icone": "palette"
+				"icone": "heart-crack"
 			},
 			{
 				"chave": 3,
 				"nome": "HERBÍVORO / VEGETARIANO",
-				"icone": "palette"
+				"icone": "carrot"
 			},
 			{
 				"chave": 4,
 				"nome": "BRANCO",
-				"icone": "palette"
+				"icone": "tooth"
 			},
 			{
 				"chave": 5,
 				"nome": "DOCE",
-				"icone": "palette"
+				"icone": "candy-cane"
 			},
 			{
 				"chave": 6,
 				"nome": "POTAVEL",
-				"icone": "palette"
+				"icone": "mug-hot"
 			}
 		]
 	}

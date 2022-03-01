@@ -7,14 +7,14 @@ type Props = {
 };
 
 const GItem: React.FC<Props> = ({ nome, icone, ativo, jogoAtivo }) => (
-	<div className={`flex grow flex-row items-center border-2 justify-center space-x-2 rounded-xl my-2 bg-white/[.2] border-gray-50/[.5] ${ativo == true && jogoAtivo == true ? 'shadow-lg' : ''} ${ativo != true && jogoAtivo == true ? 'opacity-40' : ''} `}>
+	<div className={`flex grow flex-row items-center border-2 justify-center space-x-2 rounded-xl my-2 bg-white/[.2] border-gray-50/[.5] ${ativo == true && jogoAtivo == true ? 'shadow-lg' : ''} ${ativo != true && jogoAtivo == true ? 'opacity-40' : ''} transition-all`}>
 		<div className="pl-2 h-full flex items-center grow-0">
 			<CheckedIcon active={ativo}></CheckedIcon>		
 		</div>
 		<div className="grow font-bold tracking-wide text-center text-lg">
 			{ nome }
 		</div>
-		<div className="pr-2 h-full flex items-center grow-0">
+		<div className={`pr-2 h-full flex items-center grow-0 ${ativo == true && jogoAtivo == true ? 'opacity-90' : 'opacity-75'} `}>
 			<ItemIcon icon={icone}></ItemIcon>	
 		</div>
 	</div>

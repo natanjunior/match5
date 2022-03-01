@@ -1,6 +1,6 @@
 [{
 	"chave": 1,	
-	"nome": "Coluna 1",
+	"nome": "Coluna A",
 		"cor": "red",
 		"itens": [{
 				"chave": 1,
@@ -36,7 +36,7 @@
 	},
 	{
 		"chave": 2,
-		"nome": "Coluna 2",
+		"nome": "Coluna B",
 		"cor": "amber",
 		"itens": [{
 				"chave": 1,
@@ -72,7 +72,7 @@
 	},
 	{
 		"chave": 3,
-		"nome": "Coluna 3",
+		"nome": "Coluna C",
 		"cor": "lime",
 		"itens": [{
 				"chave": 1,
@@ -108,7 +108,7 @@
 	},
 	{
 		"chave": 4,
-		"nome": "Coluna 4",
+		"nome": "Coluna D",
 		"cor": "teal",
 		"itens": [{
 				"chave": 1,
@@ -144,7 +144,7 @@
 	},
 	{
 		"chave": 5,
-		"nome": "Coluna 5",
+		"nome": "Coluna E",
 		"cor": "purple",
 		"itens": [{
 				"chave": 1,
