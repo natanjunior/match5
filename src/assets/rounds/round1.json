@@ -1,0 +1,181 @@
+[{
+		"chave": 1,
+		"nome": "Coluna 1",
+		"cor": "red",
+		"itens": [{
+				"chave": 1,
+				"nome": "ARTE",
+				"icone": "palette"
+			},
+			{
+				"chave": 2,
+				"nome": "PESADO",
+				"icone": "palette"
+			},
+			{
+				"chave": 3,
+				"nome": "REMÉDIO",
+				"icone": "palette"
+			},
+			{
+				"chave": 4,
+				"nome": "ESQUENTA",
+				"icone": "palette"
+			},
+			{
+				"chave": 5,
+				"nome": "ENGRAÇADO",
+				"icone": "palette"
+			},
+			{
+				"chave": 6,
+				"nome": "FERIADO",
+				"icone": "palette"
+			}
+		]
+	},
+	{
+		"chave": 2,
+		"nome": "Coluna 2",
+		"cor": "amber",
+		"itens": [{
+				"chave": 1,
+				"nome": "RARO",
+				"icone": "palette"
+			},
+			{
+				"chave": 2,
+				"nome": "SAÚDE",
+				"icone": "palette"
+			},
+			{
+				"chave": 3,
+				"nome": "FLUTUA",
+				"icone": "palette"
+			},
+			{
+				"chave": 4,
+				"nome": "VOA",
+				"icone": "palette"
+			},
+			{
+				"chave": 5,
+				"nome": "CIDADE",
+				"icone": "palette"
+			},
+			{
+				"chave": 6,
+				"nome": "PEQUENO",
+				"icone": "palette"
+			}
+		]
+	},
+	{
+		"chave": 3,
+		"nome": "Coluna 3",
+		"cor": "lime",
+		"itens": [{
+				"chave": 1,
+				"nome": "ESPORTE",
+				"icone": "palette"
+			},
+			{
+				"chave": 2,
+				"nome": "CANTOR(A) / GRUPO MUSICAL",
+				"icone": "palette"
+			},
+			{
+				"chave": 3,
+				"nome": "WALT DISNEY",
+				"icone": "palette"
+			},
+			{
+				"chave": 4,
+				"nome": "TECNOLOGIA",
+				"icone": "palette"
+			},
+			{
+				"chave": 5,
+				"nome": "FANTASIA",
+				"icone": "palette"
+			},
+			{
+				"chave": 6,
+				"nome": "HOBBY",
+				"icone": "palette"
+			}
+		]
+	},
+	{
+		"chave": 4,
+		"nome": "Coluna 4",
+		"cor": "teal",
+		"itens": [{
+				"chave": 1,
+				"nome": "PARTE DO CORPO",
+				"icone": "palette"
+			},
+			{
+				"chave": 2,
+				"nome": "CORTA",
+				"icone": "palette"
+			},
+			{
+				"chave": 3,
+				"nome": "FRIO",
+				"icone": "palette"
+			},
+			{
+				"chave": 4,
+				"nome": "FERRAMENTA",
+				"icone": "palette"
+			},
+			{
+				"chave": 5,
+				"nome": "PLÁSTICO",
+				"icone": "palette"
+			},
+			{
+				"chave": 6,
+				"nome": "RÁPIDO",
+				"icone": "palette"
+			}
+		]
+	},
+	{
+		"chave": 5,
+		"nome": "Coluna 5",
+		"cor": "purple",
+		"itens": [{
+				"chave": 1,
+				"nome": "CARNÍVORO / CARNE",
+				"icone": "palette"
+			},
+			{
+				"chave": 2,
+				"nome": "QUEBRÁVEL",
+				"icone": "palette"
+			},
+			{
+				"chave": 3,
+				"nome": "HERBÍVORO / VEGETARIANO",
+				"icone": "palette"
+			},
+			{
+				"chave": 4,
+				"nome": "BRANCO",
+				"icone": "palette"
+			},
+			{
+				"chave": 5,
+				"nome": "DOCE",
+				"icone": "palette"
+			},
+			{
+				"chave": 6,
+				"nome": "POTAVEL",
+				"icone": "palette"
+			}
+		]
+	}
+]
