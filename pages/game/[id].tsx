@@ -1,14 +1,11 @@
 import type { NextPage } from 'next'
-import Cronometro from '../src/components/cronometro'
-import Game from '../src/components/Game'
-import SeletorGame from '../src/components/seletorGame'
-import SeletorRound from '../src/components/seletorRound'
-
-import round1 from '../src/assets/rounds/round1.json';
-import round2 from '../src/assets/rounds/round2.json';
+import Cronometro from '../../src/components/cronometro'
+import Game from '../../src/components/Game'
+import round1 from '../../src/assets/rounds/round1.json';
+import round2 from '../../src/assets/rounds/round2.json';
 import { useEffect, useState } from 'react'
 import Head from 'next/head'
-import Guia from '../src/components/guia'
+import Guia from '../../src/components/guia'
 
 type Item = {
 	nome: string,
@@ -23,66 +20,34 @@ type Round = {
 	itens: Array<Item>
 };
 
+export async function getStaticPaths() {
+	return {
+	  paths: [],
+	  fallback: 'blocking'
+  }
+}
+
 export async function getStaticProps(context) {
 	
+	let round = iniciarJogo(round1);
+	//let round = round1;
+
+	let jogoAtivo = true;
+
 	return {
 		props: {
-			round1,
-			round2
+			round,
+			jogoAtivo
 		},
 	};
 }
 
-export default function Home({ round1, round2 }) {
-  
-	const [roundActive, setRoundActive] = useState(true);
-	const [round, setRound] = useState(round1);
-	const [jogoAtivo, setJogoAtivo] = useState(false);
-
-	function iniciarJogo(round) {
-		round.map(coluna => {
-			const activeIndex = generateActiveItem(coluna.itens.length-1);
-			coluna.itens.map(item => item.ativo = false);
-			coluna.itens[activeIndex].ativo = true;
-			return coluna;
-		});
-		setRound(round);
-	}
-	
-	function pararJogo(round) {
-		round.map(coluna => {
-			coluna.itens.map(item => item.ativo = false);
-			return coluna;
-		});
-		setRound(round);
-	}
-
-	const handleIniciarJogo = (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-		event.preventDefault();
-		setJogoAtivo(!jogoAtivo);
-
-		if(!jogoAtivo)
-			iniciarJogo(round)
-		else
-			pararJogo(round)
-	}
-
-	const handleTrocaRound = (event) => {
-		setRoundActive(!roundActive);
-		setJogoAtivo(false);
-		if(!roundActive){
-			setRound(round1);
-			pararJogo(round1);
-		}else{
-			setRound(round2);
-			pararJogo(round2);
-		}
-	}
+export default function GamePage({ round, jogoAtivo }) {
 
 	return (
     <div className="container flex flex-col h-screen">
       <Head>
-		  <title>Match5</title>
+		  <title>Match5 - Game</title>
 	  </Head>
 	  <div className="flex flex-row justify-between h-16 sticky">
         <div className="flex">
@@ -90,14 +55,6 @@ export default function Home({ round1, round2 }) {
         </div>
         <div className="flex grow items-center sm:pl-4 pl-2">
           <h1 className="sm:text-4xl text-2xl">Match5</h1>
-        </div>
-        <div className="flex">
-			<button className="btn btn-primary m-2 hidden sm:flex"
-				onClick={handleIniciarJogo}>
-				{`${jogoAtivo == true ? 'parar':'iniciar'} jogo`}
-			</button>
-			<Cronometro jogoAtivo={jogoAtivo}></Cronometro>
-          	<SeletorRound roundActive={roundActive} handle={handleTrocaRound}></SeletorRound>
         </div>
       </div>
 	  <div className="flex grow">
@@ -139,4 +96,14 @@ export default function Home({ round1, round2 }) {
 
 function generateActiveItem(itensQTD) {
 	return Math.floor(Math.random() * (itensQTD - 0) + 0);
+}
+
+function iniciarJogo(round) {
+	round.map(coluna => {
+		const activeIndex = generateActiveItem(coluna.itens.length-1);
+		coluna.itens.map(item => item.ativo = false);
+		coluna.itens[activeIndex].ativo = true;
+		return coluna;
+	});
+	return round;
 }
