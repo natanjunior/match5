@@ -54,7 +54,7 @@ const Cronometro: React.FC<Props> = ({ jogoAtivo }) => {
 	  }
 
 	return (
-		<div className="flex flex-row p-1">
+		<div className="flex flex-row p-1 hidden sm:flex">
 			<div className="grid grid-flow-col gap-1 text-center auto-cols-max">
 			<div className="flex flex-col p-2 bg-neutral rounded-xl text-neutral-content">
 				<span className="font-mono text-xl countdown text-justify">

@@ -5,32 +5,32 @@
 		"itens": [{
 				"chave": 1,
 				"nome": "PROFISSÃO",
-				"icone": "palette"
+				"icone": "briefcase"
 			},
 			{
 				"chave": 2,
 				"nome": "MARINHO / AQUÁTICO",
-				"icone": "palette"
+				"icone": "fish"
 			},
 			{
 				"chave": 3,
 				"nome": "DOENÇA",
-				"icone": "palette"
+				"icone": "head-side-mask"
 			},
 			{
 				"chave": 4,
 				"nome": "REFEIÇÃO COZIDA",
-				"icone": "palette"
+				"icone": "utensils"
 			},
 			{
 				"chave": 5,
 				"nome": "TRISTE",
-				"icone": "palette"
+				"icone": "face-frown"
 			},
 			{
 				"chave": 6,
 				"nome": "PERSONAGEM",
-				"icone": "palette"
+				"icone": "user-secret"
 			}
 		]
 	},
@@ -41,32 +41,32 @@
 		"itens": [{
 				"chave": 1,
 				"nome": "CARO",
-				"icone": "palette"
+				"icone": "money-bill-1-wave"
 			},
 			{
 				"chave": 2,
 				"nome": "HOSPITAL",
-				"icone": "palette"
+				"icone": "hospital"
 			},
 			{
 				"chave": 3,
 				"nome": "ÁGUA",
-				"icone": "palette"
+				"icone": "water"
 			},
 			{
 				"chave": 4,
 				"nome": "VIAGEM",
-				"icone": "palette"
+				"icone": "suitcase-rolling"
 			},
 			{
 				"chave": 5,
 				"nome": "EDIFICAÇÃO",
-				"icone": "palette"
+				"icone": "building"
 			},
 			{
 				"chave": 6,
 				"nome": "ALTO",
-				"icone": "palette"
+				"icone": "arrows-up-down"
 			}
 		]
 	},
@@ -77,32 +77,32 @@
 		"itens": [{
 				"chave": 1,
 				"nome": "OLÍMPICO",
-				"icone": "palette"
+				"icone": "medal"
 			},
 			{
 				"chave": 2,
 				"nome": "CANÇÃO",
-				"icone": "palette"
+				"icone": "music"
 			},
 			{
 				"chave": 3,
 				"nome": "SÍMBOLO / EMBLEMA",
-				"icone": "palette"
+				"icone": "ribbon"
 			},
 			{
 				"chave": 4,
 				"nome": "APLICATIVO",
-				"icone": "palette"
+				"icone": "mobile-screen-button"
 			},
 			{
 				"chave": 5,
 				"nome": "CONTOS / LENDAS",
-				"icone": "palette"
+				"icone": "dragon"
 			},
 			{
 				"chave": 6,
 				"nome": "ATIVIDADE AO AR LIVRE",
-				"icone": "palette"
+				"icone": "person-hiking"
 			}
 		]
 	},
@@ -113,32 +113,32 @@
 		"itens": [{
 				"chave": 1,
 				"nome": "PODE SER SEGURADO",
-				"icone": "palette"
+				"icone": "hand-holding"
 			},
 			{
 				"chave": 2,
 				"nome": "NUMA COZINHA",
-				"icone": "palette"
+				"icone": "mug-saucer"
 			},
 			{
 				"chave": 3,
 				"nome": "QUENTE",
-				"icone": "palette"
+				"icone": "sun"
 			},
 			{
 				"chave": 4,
 				"nome": "CONSTRUÇÃO",
-				"icone": "palette"
+				"icone": "hammer"
 			},
 			{
 				"chave": 5,
 				"nome": "RECICLÁVEL",
-				"icone": "palette"
+				"icone": "recycle"
 			},
 			{
 				"chave": 6,
 				"nome": "MACIO",
-				"icone": "palette"
+				"icone": "cloud"
 			}
 		]
 	},
@@ -149,32 +149,32 @@
 		"itens": [{
 				"chave": 1,
 				"nome": "REI / REALEZA",
-				"icone": "palette"
+				"icone": "crown"
 			},
 			{
 				"chave": 2,
 				"nome": "OVO",
-				"icone": "palette"
+				"icone": "egg"
 			},
 			{
 				"chave": 3,
 				"nome": "VERDE",
-				"icone": "palette"
+				"icone": "leaf"
 			},
 			{
 				"chave": 4,
 				"nome": "COMÉSTIVEL",
-				"icone": "palette"
+				"icone": "apple-whole"
 			},
 			{
 				"chave": 5,
 				"nome": "SOBREMESA",
-				"icone": "palette"
+				"icone": "cheese"
 			},
 			{
 				"chave": 6,
 				"nome": "LÍQUIDO",
-				"icone": "palette"
+				"icone": "droplet"
 			}
 		]
 	}

@@ -8,7 +8,7 @@ type Props = {
 };
 
 const GColuna: React.FC<Props> = ({ nome, cor, itens, jogoAtivo}) => (
-	<div className={`flex flex-col justify-between h-full p-4 border-2 shadow-lg rounded-xl bg-${cor}-400`}>
+	<div className={`flex flex-col justify-between sm:h-full sm:p-4 p-2 border-2 shadow-lg rounded-xl bg-${cor}-400`}>
 		<div className="text-lg">
 			{ nome }
 		</div>
